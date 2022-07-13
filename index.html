@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220713133137">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo logo"><picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.jpg" alt=""></picture></a>
+			</div>
+		</header>
+
+		<main class="page">
+
+			<div class="firstscreen">
+				<div class="firstscreen__container">
+					<div class="firstscreen__title title">
+						<span>You're currently on the BP giveaway page.</span>
+						<span>Spin the wheel to try your luck.</span>
+					</div>
+					<p class="firstscreen__text text">
+						You can win one of the cards with a balance of
+						<span>£100, £200, £500, £1,000</span>
+					</p>
+					<div class="firstscreen__card-img">
+						<picture><source srcset="img/home3/firstscreen/card.webp" type="image/webp"><img src="img/home3/firstscreen/card.png" alt=""></picture>
+					</div>
+				</div>
+				<div class="firstscreen__decor"><picture><source srcset="img/home3/firstscreen/decor.webp" type="image/webp"><img src="img/home3/firstscreen/decor.png" alt=""></picture></div>
+				<div class="firstscreen__refueling">
+					<picture><source srcset="img/home3/firstscreen/refueling.webp" type="image/webp"><img src="img/home3/firstscreen/refueling.png" alt=""></picture>
+				</div>
+			</div>
+
+
+			<div class="roulette">
+				<div class="roulette__container">
+					<div class="roulette__wheel wheel">
+						<picture><source srcset="img/common/roulette-wheel.webp" type="image/webp"><img id="wheel-image" class="roulette__wheel-image wheel__image" src="img/common/roulette-wheel.png" alt=""></picture>
+						<div id="wheel-button" class="roulette__button wheel__button"><picture><source srcset="img/common/roulette-button.webp" type="image/webp"><img src="img/common/roulette-button.png" alt=""></picture></div>
+					</div>
+				</div>
+				<div id="popup-congratulations" aria-hidden="true" class="popup popup-congratulations">
+					<div class="popup-congratulations__wrapper popup__wrapper">
+						<div class="popup-congratulations__content popup__content">
+							<div class="popup-congratulations__title popup__title title">Congratulations!</div>
+							<p class="popup-congratulations__text text">Click on the button to get your prize!</p>
+							<div class="popup-congratulations__prize"><picture><source srcset="img/popup/congratulations-prize.webp" type="image/webp"><img src="img/popup/congratulations-prize.jpg" alt=""></picture></div>
+							<a href="https://google.com" target="_blank" class="popup-congratulations__button popup__button button">GET REWARD</a>
+						</div>
+					</div>
+				</div>
+
+
+				<div id="popup-try" aria-hidden="true" class="popup popup-try">
+					<div class="popup-try__wrapper popup__wrapper">
+						<div class="popup-try__content popup__content">
+							<div class="popup-try__title popup__title title">TRY AGAIN</div>
+							<div class="popup-try__wheel"><picture><source srcset="img/popup/try-wheel.webp" type="image/webp"><img src="img/popup/try-wheel.png" alt=""></picture></div>
+							<button class="popup-try__button popup__button button wheel-button">RESPIN</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="roulette__bg"><picture><source srcset="img/home3/roulette/bg.webp" type="image/webp"><img src="img/home3/roulette/bg.png" alt=""></picture></div>
+			</div>
+
+			<div class="previous-winners">
+				<div class="previous-winners__container">
+					<div class="previous-winners__title title">Recent winners</div>
+					<div class="previous-winners__content">
+
+						<div class="previous-winners__images">
+							<div class="previous-winners__image"><picture><source srcset="img/home3/previous-winners/1.webp" type="image/webp"><img src="img/home3/previous-winners/1.jpg" alt=""></picture></div>
+							<div class="previous-winners__image"><picture><source srcset="img/home3/previous-winners/2.webp" type="image/webp"><img src="img/home3/previous-winners/2.jpg" alt=""></picture></div>
+							<div class="previous-winners__image"><picture><source srcset="img/home3/previous-winners/3.webp" type="image/webp"><img src="img/home3/previous-winners/3.jpg" alt=""></picture></div>
+							<div class="previous-winners__image"><picture><source srcset="img/home3/previous-winners/4.webp" type="image/webp"><img src="img/home3/previous-winners/4.jpg" alt=""></picture></div>
+						</div>
+						<div class="previous-winners__media">
+							<div class="previous-winners__cup"><picture><source srcset="img/home3/previous-winners/cup.webp" type="image/webp"><img src="img/home3/previous-winners/cup.png" alt=""></picture></div>
+							<a data-goto=".roulette" href="#" class="previous-winners__link button">TRY U LUCK</a>
+						</div>
+					</div>
+				</div>
+				<div class="previous-winners__decor"><picture><source srcset="img/home3/firstscreen/decor.webp" type="image/webp"><img src="img/home3/firstscreen/decor.png" alt=""></picture></div>
+			</div>
+		</main>
+	</div>
+
+	<script src="js/app.min.js?_v=20220713133137"></script>
+
+</body>
+
+</html>
